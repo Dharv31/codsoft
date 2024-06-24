@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+}
+
+/*----navbar-------*/
+.navbar {
+    z-index: 1000;
+    top: 0;
+    margin-top: 0px;
+    padding-top: 10px;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    display: inline;
+    background-color: black;
+
+}
+
+
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    margin: 2px;
+    font-size: 1.3rem;
+    font-weight: 400;
+
+
+}
+
+.navbar ul {
+    display: inline;
+    position: relative;
+    left: 57%;
+}
+
+.navbar li {
+    display: inline;
+    margin: 2px;
+    padding: 10px;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    letter-spacing: 1px;
+    background-color: transparent;
+}
+
+
+/*------About--------*/
+#about {
+    padding-top: 80px;
+    width: 100%;
+    background-color: black;
+  
+}
+#about img{
+    float: right;
+    height: 600px;
+    
+}
+
+
+#about h1 {
+    position: relative;
+    font-size: 5rem;
+    padding: 50px 50px 50px 200px;
+    color: whitesmoke;
+}
+
+#about h2{
+    
+    color: whitesmoke;
+    font-size: 1.5rem;
+    padding: 0 0 50px 200px;
+
+}
+
+/*-----training--------*/
+
+#training {
+    padding-top: 30px;
+    text-align: center;
+}
+
+#training .container h1 {
+    margin: 50px 0 50px 0;
+    font-style: oblique;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bolder;
+    padding-top: 18px;
+    letter-spacing: 2px;
+    
+}
+
+#training .container .content {
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+    margin: 25px;
+    box-shadow: 0 0 5px  rgb(19, 19, 19);
+
+}
+
+#training .container .content img {
+    width: 80%;
+    height: 200px;
+    margin: 20px;
+}
+
+#training .container .content h3 {
+    text-align: center;
+    margin: 5px;
+    font-size: 1.5rem;
+}
+#training .container .content p {
+     font-size: 1rem;
+     line-height: 1.5;
+     letter-spacing: 0.5px;
+     word-spacing: 1px;
+     margin: 10px;
+
+}
+
+#training .container .btn {
+    margin: 10px 0 15px 0;
+}
+
+#training .container .btn a {
+   color: black;
+    margin: 5px 0 15px 0;
+    font-size: 1rem;
+    text-decoration: none;
+
+}
+
+/*---------Project--------*/
+#supplement {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#supplement h1 {
+  margin: 50px 0 50px 0;
+    text-align: center;
+    font-style: oblique;
+    font-size: 4rem;
+   
+
+}
+
+
+
+#supplement .container {
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+    margin: 70px;
+    box-shadow: 0 0 5px rgb(6, 5, 5);
+
+}
+
+#supplement .container img {
+    width: 50%;
+    height: 150px;
+    margin: 20px 0 10px 0;
+   
+    
+
+}
+
+#supplement .container h3 {
+    
+    font-style: oblique;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+#supplement .container p{
+    font-size: 1.5rem;
+    margin: 20px 0px 10px 0px;
+}
+
+
+
+#supplement .container .btn {
+    
+    margin: 15px 0 15px 0;
+
+
+}
+
+#supplement .container .btn a {
+    font-size: 1rem;
+    color: rgb(20, 19, 19);
+    margin: 15px 0 15px 0;
+    text-decoration: none;
+
+}
+
+/*---------contact----------*/
+#contact {
+    text-align: center;
+}
+
+#contact h1 {
+    
+    text-align: center;
+    font-style: oblique;
+    font-size: 4rem;
+    display: inline;
+    margin: 50px;
+}
+#contact p{
+    width: 50%;
+    font-size: 1rem;
+    text-align: left;
+    margin: 140px;
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
+    line-height: 2;
+}
+#contact form {
+    float: right;
+    left: 10%;
+    width: 30%;
+    margin: 10px 100px 100px 10px;
+    text-align: left;
+    
+    box-shadow: 0 0 5px  rgb(19, 19, 19);
+}
+
+#contact form label {
+    margin-left: 10%;
+    display: inline-block;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+#contact form input{
+    margin: 15px;
+    text-align: center;
+}
+
+
+#contact form textarea {
+    width: 300px;
+    height: 100px;
+    margin-left: 10%;
+    
+}
+
+#contact form .btn {
+    padding:7px;
+    font-size: 1rem;
+    border-radius: 30px;
+  
+    margin: 30px 0px 10px 170px;
+}
+
+/*--------footer--------*/
+footer {
+    text-align: center;
+    background-color: black;
+   
+    
+
+}
+
+footer p {
+    text-align: center;
+    margin-top: 25px;
+   margin-left: 40%;
+    color: whitesmoke;
+
+}
